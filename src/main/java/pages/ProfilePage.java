@@ -11,37 +11,38 @@ public class ProfilePage extends BasePage {
         super(driver, wait);
     }
 
-//    Email input field
-    public WebElement getMyProfileEmailInputField(){
+    //    Email input field
+    public WebElement getMyProfileEmailInputField() {
         return driver.findElement(By.cssSelector("#email"));
     }
-//    Name input field
-    public WebElement getMyProfileNameInputField(){
+
+    //    Name input field
+    public WebElement getMyProfileNameInputField() {
         return driver.findElement(By.cssSelector("#name"));
     }
-//    City input field
-    public WebElement getMyProfileCityInputField(){
+
+    //    City input field
+    public WebElement getMyProfileCityInputField() {
         return driver.findElement(By.cssSelector("#city"));
     }
-//    Country input field
-    public WebElement getMyProfileCountryInputField(){
+
+    //    Country input field
+    public WebElement getMyProfileCountryInputField() {
         return driver.findElement(By.cssSelector("#country"));
     }
-//    Twitter input field
-    public WebElement getMyProfileTwitterInputField(){
+
+    //    Twitter input field
+    public WebElement getMyProfileTwitterInputField() {
         return driver.findElement(By.cssSelector("#urlTwitter"));
     }
-//    GitHub input field
-    public WebElement getMyProfileGitHubInputField(){
+
+    //    GitHub input field
+    public WebElement getMyProfileGitHubInputField() {
         return driver.findElement(By.cssSelector("#urlGitHub"));
     }
-//    Phone input field
-    public WebElement getMyProfilePhoneInputField(){
+
+    //    Phone input field
+    public WebElement getMyProfilePhoneInputField() {
         return driver.findElement(By.cssSelector("#phone"));
     }
-
-
 }
-
-//Kreirati Profile Page sa svim neophodnim metodama za realizaciju
-// profile testova.
